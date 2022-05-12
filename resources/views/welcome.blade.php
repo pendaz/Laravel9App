@@ -168,9 +168,21 @@
                         <i class="fas fa-bars"></i>
                     </a>
                 </div>
-                <a class="navbar-brand font-weight-bold" href="#">
-                    <strong>SHOP</strong>
+                <a class="navbar-brand font-weight-bold " href="#">
+                    <strong class="green-text">ACCUEIL</strong>
                 </a>
+
+
+
+                           <div class="text-center">
+                             <a href="" class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalContactForm">ALERTER<i class="far fa-eye ml-1"></i></a>
+                           </div>
+
+                           <div class="text-center">
+                             <a href="" class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#modalContactFormDemande">DEMANDER<i class="far fa-eye ml-1"></i></a>
+                           </div>
+
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -179,21 +191,21 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link waves-effect waves-light dark-grey-text font-weight-bold" href="#">
-                                <i class="fas fa-envelope blue-text"></i> Contact
+                                <i class="fas fa-envelope green-text"></i> Contact
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item ml-3">
                             <a class="nav-link waves-effect waves-light dark-grey-text font-weight-bold" href="#">
-                                <i class="fas fa-cog blue-text"></i> Settings</a>
+                                <i class="fas fa-cog green-text"></i> Paramétres</a>
                         </li>
                         <li class="nav-item dropdown ml-3">
                             <a class="nav-link dropdown-toggle waves-effect waves-light dark-grey-text font-weight-bold" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-user blue-text"></i> Profile </a>
+                                <i class="fas fa-user green-text"></i> Profile </a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
-                                <a class="dropdown-item waves-effect waves-light" href="#">My account</a>
-                                <a class="dropdown-item waves-effect waves-light" href="#">Log out</a>
+                                <a class="dropdown-item waves-effect waves-light" href="#">Mon compte</a>
+                                <a class="dropdown-item waves-effect waves-light" href="#">Déconnexion</a>
                             </div>
                         </li>
                     </ul>
@@ -228,15 +240,15 @@
                             <div class="full-bg-img flex-center white-text">
                                 <ul class="animated fadeIn col-10 list-unstyled">
                                     <li>
-                                        <p class="h1 red-text mb-4 mt-5">
-                                            <strong>Les Déchets de l'or!</strong>
+                                        <p class="h1 green-text mb-4 mt-5">
+                                            <strong>Les Déchets, de l'or!</strong>
                                         </p>
                                     </li>
                                     <li>
-                                        <h5 class="h5-responsive dark-grey-text font-weight-bold mb-5">Pour une Planete plus Saine</h5>
+                                        <h4 class="h4-responsive dark-grey-text font-weight-bold mb-5">Pour une Planete plus Saine</h4>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-danger btn-rounded" rel="nofollow">Voir plus!</a>
+                                        <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-green btn-rounded" rel="nofollow">Voir plus!</a>
                                     </li>
                                 </ul>
                             </div>
@@ -255,14 +267,14 @@
                                 <ul class="animated fadeIn col-10 list-unstyled">
                                     <li>
                                         <p class="h1 dark-grey-text mb-4">
-                                            <strong>Les déchets de l'or!</strong>
+                                            <strong>Les déchets, de l'or!</strong>
                                         </p>
                                     </li>
                                     <li>
-                                        <h5 class="h5-responsive dark-grey-text font-weight-bold mb-5">Pour une Planéte plus Saine</h5>
+                                        <h4 class="h4-responsive dark-grey-text font-weight-bold mb-5">Pour une Planéte plus Saine</h4>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-primary btn-rounded" rel="nofollow">Voir plus</a>
+                                        <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-green btn-rounded" rel="nofollow">Voir plus</a>
                                     </li>
                                 </ul>
                             </div>
@@ -280,12 +292,12 @@
                             <div class="full-bg-img flex-center white-text">
                                 <ul class="animated fadeIn col-md-10 text-center text-md-right list-unstyled">
                                     <li>
-                                        <p class="h1 blue-text mb-4 mt-5 pr-lg-5">
-                                            <strong>Les Déchets de l'or!</strong>
+                                        <p class="h1 green-text mb-4 mt-5 pr-lg-5">
+                                            <strong>Les Déchets, de l'or!</strong>
                                         </p>
                                     </li>
                                     <li>
-                                        <h5 class="h5-responsive dark-grey-text font-weight-bold mb-5 pr-lg-5">Pour une plante plus Saine</h5>
+                                        <h4 class="h4-responsive dark-grey-text font-weight-bold mb-5 pr-lg-5">Pour une plante plus Saine</h4>
                                     </li>
                                 </ul>
                             </div>
@@ -299,11 +311,11 @@
             <!--Controls-->
             <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Précedent</span>
             </a>
             <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">suivant</span>
             </a>
             <!--/.Controls-->
         </div>
@@ -312,7 +324,7 @@
         <div class="container-fluid mx-0 px-0">
 
             <!--Navbar-->
-            <nav class="navbar navbar-expand-lg navbar-dark primary-color mb-5">
+            <nav class="navbar navbar-expand-lg navbar-dark green mb-5">
                 <div class="container">
 
                     <!-- Navbar brand -->
@@ -653,13 +665,13 @@
                                     <div class="dark-grey-text  pt-4 ml-3 pl-3">
                                         <div>
                                             <a>
-                                                <span class="badge badge-danger">bestseller</span>
+                                                <span class="badge badge-green">Promotion</span>
                                             </a>
                                             <h2 class="card-title font-weight-bold pt-2">
-                                                <strong>This is news title</strong>
+                                                <strong>LES DECHETS, DE L'OR</strong>
                                             </h2>
-                                            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                                            <a class="btn btn-danger btn-sm btn-rounded clearfix d-none d-md-inline-block">Read more</a>
+                                            <p class="">MAINTENEZ VOTRE CADRE DE VIE SAINE EN TRIANT VOS DECHETS</p>
+                                            <a class="btn btn-green btn-sm btn-rounded clearfix d-none d-md-inline-block">voir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -685,16 +697,18 @@
                         <div class="col-12">
 
                             <!-- Nav tabs -->
-                            <ul class="nav md-tabs nav-justified grey lighten-3 mx-0" role="tablist">
+                            <ul class="nav md-tabs nav-justified green lighten-3 mx-0" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active dark-grey-text font-weight-bold" data-toggle="tab" href="#panel5" role="tab"> Bestsellers</a>
+                                    <a class="nav-link active dark-grey-text font-weight-bold" data-toggle="tab" href="#panel5" role="tab">
+                                      LES OBJETS LES PLUS DEMANDES</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link dark-grey-text font-weight-bold" data-toggle="tab" href="#panel6" role="tab">Top offers</a>
+                                    <a class="nav-link dark-grey-text font-weight-bold" data-toggle="tab" href="#panel6" role="tab">
+                                      LES OBJETS LES PLUS PRESENTS</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link dark-grey-text font-weight-bold" data-toggle="tab" href="#panel7" role="tab">
-                                        </i>Best rated</a>
+                                    </i>LES OBJETS LES PLUS RARES</a>
                                 </li>
                             </ul>
                             <!-- Tab panels -->
@@ -792,10 +806,10 @@
 
                                                     <h5 class="card-title mb-1">
                                                         <strong>
-                                                            <a href="" class="dark-grey-text">iPad PRO</a>
+                                                            <a href="" class="dark-grey-text">plastiques dur</a>
                                                         </strong>
                                                     </h5>
-                                                    <span class="badge badge-danger mb-2">bestseller</span>
+                                                    <span class="badge badge-danger mb-2">promo</span>
                                                     <span class="badge badge-success mb-2 ml-2">SALE</span>
                                                     <!-- Rating -->
                                                     <ul class="rating">
@@ -1237,7 +1251,7 @@
                                                             <a href="" class="dark-grey-text">iPhone</a>
                                                         </strong>
                                                     </h5>
-                                                    <span class="badge badge-info mb-2">new</span>
+                                                    <span class="badge badge-info mb-2">nouveautés</span>
                                                     <!-- Rating -->
                                                     <ul class="rating">
                                                         <li>
@@ -1304,7 +1318,7 @@
                                                             <a href="" class="dark-grey-text">iMac</a>
                                                         </strong>
                                                     </h5>
-                                                    <span class="badge badge-danger mb-2">bestseller</span>
+                                                    <span class="badge badge-danger mb-2">Promo</span>
                                                     <!-- Rating -->
                                                     <ul class="rating">
                                                         <li>
@@ -1362,871 +1376,113 @@
                 </section>
                 <!--Section: Bestsellers & offers-->
 
-                <!--Section: Advertising-->
-                <section>
-
-                    <!--Grid row-->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-12">
-                            <!--Image -->
-                            <div class="view  z-depth-1">
-
-                                <img src="https://mdbootstrap.com/img/Photos/Others/ecommerce5.jpg" class="img-fluid" alt="sample image">
-                                <div class="mask rgba-stylish-slight">
-                                    <div class="dark-grey-text text-right pt-lg-5 pt-md-1 mr-5 pr-md-4 pr-0">
-                                        <div>
-                                            <a>
-                                                <span class="badge badge-primary">SALE</span>
-                                            </a>
-                                            <h2 class="card-title font-weight-bold pt-md-3 pt-1">
-                                                <strong>Sale from 20% to 50% on every tablet!
-                                                </strong>
-                                            </h2>
-                                            <p class="pb-lg-3 pb-md-1 clearfix d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                                            <a class="btn mr-0 btn-primary btn-rounded clearfix d-none d-md-inline-block">Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!--Image -->
-                        </div>
-                        <!--Grid column-->
-
-                    </div>
-                    <!--Grid row-->
-
-                </section>
-                <!--/Section: Advertising-->
-
-                <!--Section: product list-->
-                <section class="mb-5">
-                    <div class="row">
-                        <!-- New Products-->
-                        <div class="col-lg-4 col-md-12 col-12 pt-5">
-                            <hr>
-                            <h5 class="text-center font-weight-bold dark-grey-text">
-                                <strong>New Products</strong>
-                            </h5>
-                            <hr>
-                            <!-- First row -->
-                            <div class="row mt-5 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/1.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a class="pt-5">
-                                        <strong>iPad</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$849</strong>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.First row -->
-
-                            <!-- Second row -->
-                            <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/10.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Headphones</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$49</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$89</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.Second row -->
-
-                            <!-- Third row -->
-                            <div class="row mt-2 py-2 pb-1 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/3.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>iMac 27"</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$1449</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$2189</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.Third row -->
-
-                        </div>
-                        <!-- /.New Products-->
-
-                        <!-- Top Sellers-->
-                        <div class="col-lg-4  col-md-12 pt-5">
-
-                            <hr>
-                            <h5 class="text-center font-weight-bold dark-grey-text">
-                                <strong>Top Sellers</strong>
-                            </h5>
-                            <hr>
-
-                            <!-- First row -->
-                            <div class="row mt-5 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/4.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Dell V-964i</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$649</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$889</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.First row -->
-
-                            <!-- Second row -->
-                            <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/5.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Asus GT67i</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$1249</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$1489</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.Second row -->
-
-                            <!-- Third row -->
-                            <div class="row mt-2 py-2 pb-1 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/6.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Headphones</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$49</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$89</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.Third row -->
-
-                        </div>
-                        <!-- /.Top Sellers -->
-
-                        <!-- Random Products-->
-                        <div class="col-lg-4 col-md-12 pt-5">
-
-                            <hr>
-                            <h5 class="text-center font-weight-bold dark-grey-text">
-                                <strong>Random products</strong>
-                            </h5>
-                            <hr>
-
-                            <!-- First row -->
-                            <div class="row mt-5 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/7.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Dell 786i</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$749</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$889</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.First row -->
-
-                            <!-- Second row -->
-                            <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/8.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Samsung V54</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$249</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$489</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.Second row -->
-
-                            <!-- Third row -->
-                            <div class="row mt-2 py-2 mb-4 hoverable align-items-center">
-
-                                <div class="col-6">
-                                    <a>
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/9.jpg" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-
-                                    <!-- Title -->
-                                    <a>
-                                        <strong>Canon 675-D</strong>
-                                    </a>
-
-                                    <!-- Rating -->
-                                    <ul class="rating inline-ul">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Price -->
-                                    <h6 class="h6-responsive font-weight-bold dark-grey-text">
-                                        <strong>$2149</strong>
-                                        <span class="grey-text">
-                                            <small>
-                                                <s>$2489</s>
-                                            </small>
-                                        </span>
-                                    </h6>
-
-                                </div>
-
-                            </div>
-                            <!-- /.Third row -->
-
-                        </div>
-                        <!-- /.Random Products -->
-                    </div>
-
-                </section>
-                <!--/Section: product list-->
-
-                <!--Section: Last items-->
-                <section>
-
-                    <h4 class="font-weight-bold mt-4 dark-grey-text">
-                        <strong>LAST ITEMS</strong>
-                    </h4>
-                    <hr class="mb-5">
-
-                    <!-- Grid row -->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-lg-3 col-md-6 mb-4">
-
-                            <!--Card-->
-                            <div class="card card-ecommerce">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/12.jpg" class="img-fluid" alt="sample image">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                                <!--Card image-->
-
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Category & Title-->
-
-                                    <h5 class="card-title mb-1">
-                                        <strong>
-                                            <a href="" class="dark-grey-text">Headphones</a>
-                                        </strong>
-                                    </h5>
-                                    <span class="badge badge-danger mb-2">bestseller</span>
-                                    <!-- Rating -->
-                                    <ul class="rating">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!--Card footer-->
-                                    <div class="card-footer pb-0">
-                                        <div class="row mb-0">
-                                            <span class="float-left">
-                                                <strong>1439$</strong>
-                                            </span>
-                                            <span class="float-right">
-
-                                                <a class="" data-toggle="tooltip" data-placement="top" title="Add to Cart">
-                                                    <i class="fas fa-shopping-cart ml-3"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!--Card content-->
-
-                            </div>
-                            <!--Card-->
-
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-lg-3 col-md-6 mb-4">
-
-                            <!--Card-->
-                            <div class="card card-ecommerce">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/16.jpg" class="img-fluid" alt="sample image">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                                <!--Card image-->
-
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Category & Title-->
-
-                                    <h5 class="card-title mb-1">
-                                        <strong>
-                                            <a href="" class="dark-grey-text">Headphones</a>
-                                        </strong>
-                                    </h5>
-                                    <span class="badge badge-danger mb-2">bestseller</span>
-                                    <!-- Rating -->
-                                    <ul class="rating">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!--Card footer-->
-                                    <div class="card-footer pb-0">
-                                        <div class="row mb-0">
-                                            <span class="float-left">
-                                                <strong>1439$</strong>
-                                            </span>
-                                            <span class="float-right">
-
-                                                <a class="" data-toggle="tooltip" data-placement="top" title="Add to Cart">
-                                                    <i class="fas fa-shopping-cart ml-3"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!--Card content-->
-
-                            </div>
-                            <!--Card-->
-
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <!--Card-->
-                            <div class="card card-ecommerce">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/11.jpg" class="img-fluid" alt="sample image">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                                <!--Card image-->
-
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Category & Title-->
-
-                                    <h5 class="card-title mb-1">
-                                        <strong>
-                                            <a href="" class="dark-grey-text">iPhone</a>
-                                        </strong>
-                                    </h5>
-                                    <span class="badge badge-info mb-2">new</span>
-                                    <!-- Rating -->
-                                    <ul class="rating">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!--Card footer-->
-                                    <div class="card-footer pb-0">
-                                        <div class="row mb-0">
-                                            <span class="float-left">
-                                                <strong>1439$</strong>
-                                            </span>
-                                            <span class="float-right">
-
-                                                <a class="" data-toggle="tooltip" data-placement="top" title="Add to Cart">
-                                                    <i class="fas fa-shopping-cart ml-3"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!--Card content-->
-
-                            </div>
-                            <!--Card-->
-
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-lg-3 col-md-6 mb-4">
-
-                            <!--Card-->
-                            <div class="card card-ecommerce">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/3.jpg" class="img-fluid" alt="sample image">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                                <!--Card image-->
-
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Category & Title-->
-
-                                    <h5 class="card-title mb-1">
-                                        <strong>
-                                            <a href="" class="dark-grey-text">iMac</a>
-                                        </strong>
-                                    </h5>
-                                    <span class="badge badge-danger mb-2">bestseller</span>
-                                    <!-- Rating -->
-                                    <ul class="rating">
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star blue-text"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star grey-text"></i>
-                                        </li>
-                                    </ul>
-
-                                    <!--Card footer-->
-                                    <div class="card-footer pb-0">
-                                        <div class="row mb-0">
-                                            <span class="float-left">
-                                                <strong>1439$</strong>
-                                            </span>
-                                            <span class="float-right">
-
-                                                <a class="" data-toggle="tooltip" data-placement="top" title="Add to Cart">
-                                                    <i class="fas fa-shopping-cart ml-3"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!--Card content-->
-
-                            </div>
-                            <!--Card-->
-
-                        </div>
-                        <!--Grid column-->
-
-                    </div>
-                    <!--Grid row-->
-
-                    <!--Grid row-->
-                    <div class="row justify-content-center mb-4">
-
-                        <!--Pagination -->
-                        <nav class="mb-4">
-                            <ul class="pagination pagination-circle pg-blue mb-0">
-
-                                <!--First-->
-                                <li class="page-item disabled clearfix d-none d-md-block">
-                                    <a class="page-link waves-effect waves-effect">First</a>
-                                </li>
-
-                                <!--Arrow left-->
-                                <li class="page-item disabled">
-                                    <a class="page-link waves-effect waves-effect" aria-label="Previous">
-                                        <span aria-hidden="true">«</span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                </li>
-
-                                <!--Numbers-->
-                                <li class="page-item active">
-                                    <a class="page-link waves-effect waves-effect">1</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link waves-effect waves-effect">2</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link waves-effect waves-effect">3</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link waves-effect waves-effect">4</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link waves-effect waves-effect">5</a>
-                                </li>
-
-                                <!--Arrow right-->
-                                <li class="page-item">
-                                    <a class="page-link waves-effect waves-effect" aria-label="Next">
-                                        <span aria-hidden="true">»</span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </li>
-
-                                <!--First-->
-                                <li class="page-item clearfix d-none d-md-block">
-                                    <a class="page-link waves-effect waves-effect">Last</a>
-                                </li>
-
-                            </ul>
-                        </nav>
-                        <!--/Pagination -->
-
-                    </div>
-                    <!--Grid row-->
-                </section>
-                <!-- /.Section: Last items -->
 
             </div>
             <!-- /.Content -->
 
         </div>
         <!-- /Grid row -->
+        <!-- Modal: Contact form alerte-->
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog cascading-modal" role="document">
+            <!-- Content -->
+            <div class="modal-content">
+
+              <!-- Header -->
+              <div class="modal-header light-blue darken-3 white-text">
+                <h4 class=""><i class="fas fa-pencil-alt"></i> Contact form</h4>
+                <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <!-- Body -->
+              <div class="modal-body mb-0">
+                <div class="md-form form-sm">
+                  <i class="fas fa-user prefix"></i>
+                  <input type="text" id="form19" class="form-control form-control-sm">
+                  <label for="form19">Your name</label>
+                </div>
+
+                <div class="md-form form-sm">
+                  <i class="fas fa-envelope prefix"></i>
+                  <input type="password" id="form20" class="form-control form-control-sm">
+                  <label for="form20">Your email</label>
+                </div>
+
+                <div class="md-form form-sm">
+                  <i class="fas fa-tag prefix"></i>
+                  <input type="text" id="form21" class="form-control form-control-sm">
+                  <label for="form21">Subject</label>
+                </div>
+
+                <div class="md-form form-sm">
+                  <i class="fas fa-pencil-alt prefix"></i>
+                  <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="3"></textarea>
+                  <label for="form8">Your message</label>
+                </div>
+
+                <div class="text-center mt-1-half">
+                  <button class="btn btn-info mb-2">Send <i class="fas fa-paper-plane ml-1"></i></button>
+                </div>
+
+              </div>
+            </div>
+            <!-- Content -->
+          </div>
+        </div>
+        <!-- Modal: Contact form -->
+
+        <!-- Modal: Contact form demande-->
+        <div class="modal fade" id="modalContactFormDemande" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog cascading-modal" role="document">
+            <!-- Content -->
+            <div class="modal-content">
+
+              <!-- Header -->
+              <div class="modal-header light-blue darken-3 white-text">
+                <h4 class=""><i class="fas fa-pencil-alt"></i> Contact form</h4>
+                <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <!-- Body -->
+              <div class="modal-body mb-0">
+                <div class="md-form form-sm">
+                  <i class="fas fa-user prefix"></i>
+                  <input type="text" id="form19" class="form-control form-control-sm">
+                  <label for="form19">Your name</label>
+                </div>
+
+                <div class="md-form form-sm">
+                  <i class="fas fa-envelope prefix"></i>
+                  <input type="password" id="form20" class="form-control form-control-sm">
+                  <label for="form20">Your email</label>
+                </div>
+
+                <div class="md-form form-sm">
+                  <i class="fas fa-tag prefix"></i>
+                  <input type="text" id="form21" class="form-control form-control-sm">
+                  <label for="form21">Subject</label>
+                </div>
+
+                <div class="md-form form-sm">
+                  <i class="fas fa-pencil-alt prefix"></i>
+                  <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="3"></textarea>
+                  <label for="form8">Your message</label>
+                </div>
+
+                <div class="text-center mt-1-half">
+                  <button class="btn btn-info mb-2">Send <i class="fas fa-paper-plane ml-1"></i></button>
+                </div>
+
+              </div>
+            </div>
+            <!-- Content -->
+          </div>
+        </div>
+        <!-- Modal: Contact form -->
     </div>
     <!-- /.Main Container -->
 
@@ -2241,7 +1497,7 @@
 
                     <!--Grid column-->
                     <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                        <h6 class="mb-0 white-text">nous suivre via les réseaux sociaux!</h6>
                     </div>
                     <!--Grid column-->
 
@@ -2283,31 +1539,30 @@
                 <!--First column-->
                 <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                     <h6 class="text-uppercase font-weight-bold">
-                        <strong>Company name</strong>
+                        <strong>YESSAL</strong>
                     </h6>
                     <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.</p>
+                    <p>Le numerique de la planéte et de ces occupants!</p>
                 </div>
                 <!--/.First column-->
 
                 <!--Second column-->
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">
-                        <strong>Products</strong>
+                        <strong>Nos Outils</strong>
                     </h6>
                     <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">MDBootstrap</a>
+                        <a href="#!">template bootstrap frontend</a>
                     </p>
                     <p>
-                        <a href="#!">MDWordPress</a>
+                        <a href="#!">Framework laravel backend</a>
                     </p>
                     <p>
-                        <a href="#!">BrandFlow</a>
+                        <a href="#!">HTML5</a>
                     </p>
                     <p>
-                        <a href="#!">Bootstrap Angular</a>
+                        <a href="#!">CSS3</a>
                     </p>
                 </div>
                 <!--/.Second column-->
@@ -2315,20 +1570,20 @@
                 <!--Third column-->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">
-                        <strong>Useful links</strong>
+                        <strong>liens utiles</strong>
                     </h6>
                     <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Your Account</a>
+                        <a href="#!">vos accomptes</a>
                     </p>
                     <p>
-                        <a href="#!">Become an Affiliate</a>
+                        <a href="#!">devenir un de nos filiales</a>
                     </p>
                     <p>
-                        <a href="#!">Shipping Rates</a>
+                        <a href="#!">Echanges</a>
                     </p>
                     <p>
-                        <a href="#!">Help</a>
+                        <a href="#!">Aides</a>
                     </p>
                 </div>
                 <!--/.Third column-->
@@ -2336,17 +1591,17 @@
                 <!--Fourth column-->
                 <div class="col-md-4 col-lg-3 col-xl-3">
                     <h6 class="text-uppercase font-weight-bold">
-                        <strong>Contact</strong>
+                        <strong>Nous joindre</strong>
                     </h6>
                     <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <i class="fas fa-home mr-3"></i> quartier 10ieme,Thiés, SN</p>
                     <p>
-                        <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        <i class="fas fa-envelope mr-3"></i> info@yesssal.com</p>
                     <p>
-                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <i class="fas fa-phone mr-3"></i> + 221 234 56 88</p>
                     <p>
-                        <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        <i class="fas fa-print mr-3"></i> + 221 234 56 89</p>
                 </div>
                 <!--/.Fourth column-->
 
@@ -2357,7 +1612,7 @@
         <!-- Copyright-->
         <div class="footer-copyright py-3 text-center">
             <div class="container-fluid">
-                © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+                © 2022 Copyright:yessal.com <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> Yessal </a>
             </div>
         </div>
         <!--/.Copyright -->
@@ -2369,16 +1624,19 @@
     <!-- SCRIPTS -->
 
     <!-- JQuery -->
-    <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="{{asset ('assets/js/jquery-3.3.1.min.js')}}"></script>
 
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="../../js/popper.min.js"></script>
+    <script type="text/javascript" src="{{asset ('assets/js/popper.min.js')}}"></script>
 
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{asset ('assets/js/bootstrap.min.js')}}"></script>
 
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../../js/mdb.min.js"></script>
+    <script type="text/javascript" src="assets/js/mdb.min.js')}}"></script>
+
+
+  <script type="text/javascript" src="{{asset ('js/popper.min.js')}}"></script>
 
     <script type="text/javascript">
         /* WOW.js init */
