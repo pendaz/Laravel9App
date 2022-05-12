@@ -13,9 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('_alertes', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::create('alertes', function (Blueprint $table) {
+          $table->id();
+          $table->integer('idUtilisateur');
+          $table->integer('idProduit');
+          $table->string('type');
+          $table->string('adresse');
+          $table->integer('qte');
+          $table->timestamps();
         });
     }
 
@@ -26,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_alertes');
+        Schema::dropIfExists('alertes');
     }
 };

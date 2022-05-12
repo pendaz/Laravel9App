@@ -13,9 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('_demandes', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::create('demandes', function (Blueprint $table) {
+          $table->id();
+          $table->integer('idUtilisateurDmnd');
+          $table->integer('idProduitDmnd');
+          $table->string('typeDmn');
+          $table->string('adresseDmnd');
+          $table->integer('qteDmnd');
+          $table->timestamps();
         });
     }
 
@@ -26,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_demandes');
+        Schema::dropIfExists('demandes');
     }
 };
